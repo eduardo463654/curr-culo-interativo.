@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <img src="perfil.img.jpg" alt="Foto de Perfil">
+        <h1>Currículo Interativo</h1>
+    </header>
+
+    <main class="container">
+        <div class="card-grid">
+            <div class="card" onclick="abrirCard('sobre-mim')">
+                <h2>Sobre Mim</h2>
+                <p>Saiba mais sobre minha trajetória.</p>
+            </div>
+            <div class="card" onclick="abrirCard('fap')">
+                <h2>FAP</h2>
+                <p>Informações sobre minha vida na fap até agora.</p>
+            </div>
+            <div class="card" onclick="abrirCard('cursos')">
+                <h2>Cursos</h2>
+                <p>Veja os cursos que eu estou cursando na FAP</p>
+            </div>
+            <div class="card" onclick="abrirCard('experiencias')">
+                <h2>Experiências</h2>
+                <p>Minhas experiencias Profissionais</p>
+            </div>
+        </div>
+
+        <div id="sobre-mim" class="content-area">
+            <h2>Sobre Mim</h2>
+            <p>Olá meu nome e Eduardo Fernandes, na minha vida toda eu sepre estudei na rede Adventista até des dos 3 anos de idade. 
+            <p>O meu ensinio médio, eu fiz em outro internato, no IABC</p>
+            <p>É agora estou fazendos facudade na Facudade Adventista do Párana, e agara estou com o foco de atuar como Full-stack ou focar so em Redes de Computadores.</p>
+        </p>
+            <a href="#" class="back-button" onclick="voltarParaCards()">Voltar para os Cards</a>
+        </div>
+
+        <div id="fap" class="content-area">
+            <h2>Minha vida na FAP</h2>
+            <p>Até agora eu tenho aprendido muita coisa nova e presenciando muitas novas experiencias na FAP, tanto nas aulas , quanto na vida de internato. </p>
+            
+            <a href="#" class="back-button" onclick="voltarParaCards()">Voltar para os Cards</a>
+        </div>
+
+        <div id="cursos" class="content-area">
+            <h2>Cursos e Certificações</h2>
+            <h3>Analise e Desenvolvimento de Sistemas</h3>
+            
+            <h3>Redes de Computadores</h3>
+    
+            <a href="#" class="back-button" onclick="voltarParaCards()">Voltar para os Cards</a>
+        </div>
+
+        <div id="experiencias" class="content-area">
+            <h2>Experiências Profissionais</h2>
+            <p>No momento não tive muitas experiencias profissionais nessa aréa.</p>
+            <p>Mas já tive experiencia com atendimento ao cliente.</p>
+            <a href="#" class="back-button" onclick="voltarParaCards()">Voltar para os Cards</a>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/eduardo463654" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/eduardo-fernandes-210852283/" target="_blank">LinkedIn</a>>
+        <p>@2025 Aluno da Facudade Adventista do Párana</p>
+        <h5>contato</h5>
+        <p>dudufernandes021@gmail.com</p>
+        <p>(63)999359716 ou (65)9813144792</p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
